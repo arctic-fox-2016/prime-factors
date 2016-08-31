@@ -14,9 +14,13 @@ console.log(prime_factors(123123123)); // => [3, 3, 41, 333667]
 //release 1
 
 let simple_recursive = (number) => {
+   if  (number <=1){
+     return 1 ;
+    }
+return number * simple_recursive (number-1);
   //write your code here
 }
 
 console.log(simple_recursive(39)); // 4
-console.log(simple_recursive(999)); // 2
-console.log(simple_recursive(3)); // 3
+// console.log(simple_recursive(999)); // 2
+// console.log(simple_recursive(3)); // 3
