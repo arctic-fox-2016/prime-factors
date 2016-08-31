@@ -56,7 +56,7 @@ console.log(prime_factors(123123123)); // => [3, 3, 41, 333667]
 var end = new Date().getTime();
 var time = end - start;
 console.log('Execution time: ' + Math.round((time/1000)*100)/100+" detik");
-//release 1
+//release 1 
 
 let simple_recursive = (number) => {
   //write your code here
